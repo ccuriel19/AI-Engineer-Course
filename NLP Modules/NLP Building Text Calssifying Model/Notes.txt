@@ -1,0 +1,4 @@
+Algorithms used in section:
+- Logistic Regression
+- Naive Bayes
+- Linear SVM

@@ -1,0 +1,57 @@
+Topic modeling is an example of unsupervised learning - don't need labels to find topics
+When to use topic modelling? 
+    - News articles
+    - Research Articles
+    - Customer feedback/reviews
+    - Social media listening
+
+
+
+Latent Dirichlet Allocation (LDA):
+    Generative Model:
+        LDA is a generative probabilistic model that assumes documents are mixtures of topics, and topics are mixtures of words.
+        It explicitly models the process of generating a document.
+    2. Topic Modeling:
+        LDA is primarily used for topic modeling, where the goal is to identify topics present in a collection of documents.
+        Each document is considered as a distribution over topics, and each topic is a distribution over words.
+    3. Unsupervised Learning:
+        LDA is an unsupervised learning algorithm, meaning it doesn’t require labeled data. It infers the underlying topics without predefined categories.
+    4. Word Distribution:
+        Topics in LDA are represented as probability distributions over words.
+        LDA aims to discover the topics that are prevalent in the entire corpus and their distribution in each document.
+
+
+
+Latent Semantic Analysis (LSA):
+    Singular Value Decomposition (SVD):
+        LSA relies on Singular Value Decomposition (SVD) to decompose the term-document matrix into lower-dimensional representations.
+        It transforms the original term-document matrix into a semantic space by capturing the latent structure.
+    2. Dimensionality Reduction:
+        LSA focuses on dimensionality reduction to capture the underlying semantic structure in the data.
+        It retains the most significant components of the term and document spaces based on the singular values.
+    3. Vector Space Model:
+        LSA operates within the vector space model, representing documents and terms as vectors in a high-dimensional space.
+        It is more focused on capturing semantic similarity between terms and documents.
+    4. Applications:
+        LSA is often used for tasks such as document retrieval, information retrieval, and clustering.
+        It is effective in capturing semantic relationships and reducing noise in high-dimensional text data.
+
+
+
+Key Differences:
+    Objective:
+    LDA: Identifying topics and their distribution across documents.
+    LSA: Capturing the latent semantic structure and reducing dimensionality.
+    2. Generative vs. Decomposition:
+        LDA is a generative model that explicitly models the document generation process.
+        LSA is a decomposition technique that transforms the original matrix to capture latent relationships.
+    3. Supervised vs. Unsupervised:
+        LDA is unsupervised, inferring topics without labeled data.
+        LSA is unsupervised, focusing on discovering underlying patterns without predefined categories.
+    4. Representation:
+        LDA represents topics as probability distributions over words.
+        LSA represents documents and terms in a lower-dimensional semantic space.
+    In summary, while both LDA and LSA aim to uncover hidden structures in text data, LDA is more focused on topic modeling and understanding document generation, while LSA emphasizes dimensionality reduction and capturing semantic relationships. The choice between the two depends on the specific goals and requirements of the analysis.
+
+
+A coherence model, in the context of topic modeling, is a method used to evaluate the quality of a topic model by measuring how well the words within a topic relate to each other
